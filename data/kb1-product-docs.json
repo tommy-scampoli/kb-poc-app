@@ -1,0 +1,107 @@
+{
+  "kb_name": "Product Documentation",
+  "kb_id": "kb1",
+  "description": "Technical documentation and user guides",
+  "articles": [
+    {
+      "id": "pd001",
+      "title": "Getting Started with Knowledge Base POC",
+      "category": "Getting Started",
+      "content": "Welcome to the Knowledge Base POC platform. This guide will walk you through the initial setup process. First, ensure you have valid credentials from your administrator. Navigate to the login page and enter your email and password. Once authenticated, you'll see the main search interface where you can query across all connected knowledge bases.",
+      "tags": ["onboarding", "setup", "basics"],
+      "author": "System Admin",
+      "last_updated": "2024-01-15",
+      "views": 245
+    },
+    {
+      "id": "pd002",
+      "title": "How to Search Effectively",
+      "category": "Getting Started",
+      "content": "The search functionality allows you to query multiple knowledge bases simultaneously. Use specific keywords for better results. Boolean operators like AND, OR are supported. Enclose phrases in quotes for exact matches. Filter results by category or knowledge base source using the sidebar controls.",
+      "tags": ["search", "tips", "tutorial"],
+      "author": "Product Team",
+      "last_updated": "2024-01-20",
+      "views": 189
+    },
+    {
+      "id": "pd003",
+      "title": "User Roles and Permissions",
+      "category": "Administration",
+      "content": "The platform supports two user roles: Support Agent and Admin. Support Agents can search and view content across all knowledge bases but cannot modify configurations. Admins have full access including the ability to add/remove knowledge base connections, manage user accounts, and configure search parameters.",
+      "tags": ["roles", "permissions", "security"],
+      "author": "Security Team",
+      "last_updated": "2024-01-18",
+      "views": 156
+    },
+    {
+      "id": "pd004",
+      "title": "API Reference - Search Endpoint",
+      "category": "API Reference",
+      "content": "The /api/search endpoint accepts POST requests with a query parameter. Returns unified results from all configured knowledge bases. Response includes article title, excerpt, source KB, relevance score, and direct link. Rate limited to 100 requests per minute per user.",
+      "tags": ["api", "development", "integration"],
+      "author": "Engineering Team",
+      "last_updated": "2024-01-22",
+      "views": 98
+    },
+    {
+      "id": "pd005",
+      "title": "Configuring Knowledge Base Connections",
+      "category": "Administration",
+      "content": "Admins can add new knowledge base connections through the Settings panel. Each connection requires a name, type, and authentication credentials. Supported types include JSON, Database, and API endpoints. Test connections before saving to ensure proper configuration. Changes take effect immediately.",
+      "tags": ["configuration", "admin", "setup"],
+      "author": "Product Team",
+      "last_updated": "2024-01-25",
+      "views": 134
+    },
+    {
+      "id": "pd006",
+      "title": "Troubleshooting Search Issues",
+      "category": "Troubleshooting",
+      "content": "If searches return no results, verify that knowledge bases are properly connected in Settings. Check that your user account has appropriate permissions. Clear browser cache if results appear stale. Contact your administrator if issues persist. Common issues include expired credentials, network connectivity problems, or malformed queries.",
+      "tags": ["troubleshooting", "support", "debugging"],
+      "author": "Support Team",
+      "last_updated": "2024-01-19",
+      "views": 212
+    },
+    {
+      "id": "pd007",
+      "title": "Best Practices for Content Organization",
+      "category": "Best Practices",
+      "content": "Organize knowledge base content with clear, descriptive titles. Use consistent tagging conventions across articles. Keep content up-to-date and archive outdated information. Include relevant keywords in article text for better searchability. Structure content with clear headings and sections.",
+      "tags": ["best-practices", "content", "organization"],
+      "author": "Content Team",
+      "last_updated": "2024-01-21",
+      "views": 167
+    },
+    {
+      "id": "pd008",
+      "title": "Security and Data Privacy",
+      "category": "Security",
+      "content": "All data transmitted between your browser and our servers is encrypted using TLS 1.3. User passwords are hashed using bcrypt. Access logs are maintained for audit purposes. Knowledge base credentials are encrypted at rest. Regular security audits are performed quarterly.",
+      "tags": ["security", "privacy", "compliance"],
+      "author": "Security Team",
+      "last_updated": "2024-01-23",
+      "views": 145
+    },
+    {
+      "id": "pd009",
+      "title": "Understanding Search Results Ranking",
+      "category": "Best Practices",
+      "content": "Search results are ranked by relevance using a combination of keyword matching, recency, and user engagement metrics. Results from multiple knowledge bases are merged and deduplicated. AI-powered semantic search helps surface contextually relevant content even when exact keywords don't match.",
+      "tags": ["search", "ai", "ranking"],
+      "author": "Product Team",
+      "last_updated": "2024-01-24",
+      "views": 178
+    },
+    {
+      "id": "pd010",
+      "title": "Mobile Access and Responsive Design",
+      "category": "Getting Started",
+      "content": "The Knowledge Base POC platform is fully responsive and works on mobile devices. Access the same URL from your phone or tablet. Touch-optimized interface provides easy navigation on smaller screens. All features available on desktop are accessible on mobile.",
+      "tags": ["mobile", "responsive", "accessibility"],
+      "author": "UX Team",
+      "last_updated": "2024-01-17",
+      "views": 203
+    }
+  ]
+}

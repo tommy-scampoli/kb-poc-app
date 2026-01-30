@@ -1,0 +1,127 @@
+{
+  "kb_name": "Internal Wiki",
+  "kb_id": "kb2",
+  "description": "Company policies, procedures, and internal resources",
+  "articles": [
+    {
+      "id": "iw001",
+      "title": "Employee Onboarding Checklist",
+      "category": "HR Policies",
+      "content": "New employees should complete the following steps within their first week: Sign employment contract and tax forms, attend orientation session, set up company email and accounts, meet with direct manager for role expectations, complete security training, and receive access badges. HR will coordinate these activities.",
+      "tags": ["onboarding", "hr", "new-employees"],
+      "author": "HR Department",
+      "last_updated": "2024-01-16",
+      "views": 312
+    },
+    {
+      "id": "iw002",
+      "title": "Time Off Request Process",
+      "category": "HR Policies",
+      "content": "Submit time off requests at least two weeks in advance through the HR portal. Requests require manager approval. Ensure adequate coverage is arranged before submitting. Unused vacation days roll over up to 5 days annually. Sick leave should be reported as soon as possible to your supervisor.",
+      "tags": ["pto", "vacation", "hr-policy"],
+      "author": "HR Department",
+      "last_updated": "2024-01-14",
+      "views": 289
+    },
+    {
+      "id": "iw003",
+      "title": "Code Review Guidelines",
+      "category": "Engineering Processes",
+      "content": "All code changes require peer review before merging. Reviewers should check for code quality, security vulnerabilities, test coverage, and adherence to style guides. Provide constructive feedback and approve only when all concerns are addressed. Average review turnaround should be within 24 hours.",
+      "tags": ["engineering", "code-review", "development"],
+      "author": "Engineering Lead",
+      "last_updated": "2024-01-20",
+      "views": 267
+    },
+    {
+      "id": "iw004",
+      "title": "Incident Response Protocol",
+      "category": "Engineering Processes",
+      "content": "When a production incident occurs: Create incident channel in Slack, assign incident commander, notify stakeholders, begin investigation and mitigation, document timeline and actions taken, conduct post-mortem within 48 hours. Severity levels determine escalation procedures.",
+      "tags": ["incident", "emergency", "operations"],
+      "author": "DevOps Team",
+      "last_updated": "2024-01-22",
+      "views": 198
+    },
+    {
+      "id": "iw005",
+      "title": "Sales Discovery Call Framework",
+      "category": "Sales Playbooks",
+      "content": "Effective discovery calls follow the BANT framework: Budget, Authority, Need, Timeline. Start with rapport building, understand current challenges, identify pain points, qualify budget and decision-making process, and establish next steps. Document all findings in CRM immediately after the call.",
+      "tags": ["sales", "discovery", "process"],
+      "author": "Sales Manager",
+      "last_updated": "2024-01-18",
+      "views": 234
+    },
+    {
+      "id": "iw006",
+      "title": "Customer Objection Handling",
+      "category": "Sales Playbooks",
+      "content": "Common objections and responses: Price concerns - emphasize ROI and total cost of ownership. Feature gaps - highlight roadmap and customization options. Competitor comparisons - focus on unique differentiators. Implementation time - showcase case studies with similar timelines. Always validate concerns before addressing.",
+      "tags": ["sales", "objections", "tactics"],
+      "author": "Sales Enablement",
+      "last_updated": "2024-01-21",
+      "views": 256
+    },
+    {
+      "id": "iw007",
+      "title": "Data Classification Guidelines",
+      "category": "Security Guidelines",
+      "content": "Company data is classified into three levels: Public (no restrictions), Internal (employees only), Confidential (need-to-know basis). All confidential data must be encrypted. Customer data requires special handling per privacy policies. Label documents appropriately and follow storage guidelines for each classification level.",
+      "tags": ["security", "data", "compliance"],
+      "author": "Security Team",
+      "last_updated": "2024-01-19",
+      "views": 221
+    },
+    {
+      "id": "iw008",
+      "title": "Password and Authentication Policy",
+      "category": "Security Guidelines",
+      "content": "Passwords must be at least 12 characters with mixed case, numbers, and symbols. Enable two-factor authentication on all company accounts. Never share passwords or store them in plain text. Change passwords every 90 days. Use company-approved password manager for secure storage.",
+      "tags": ["security", "authentication", "policy"],
+      "author": "IT Security",
+      "last_updated": "2024-01-17",
+      "views": 298
+    },
+    {
+      "id": "iw009",
+      "title": "Remote Work Policy",
+      "category": "HR Policies",
+      "content": "Employees may work remotely up to 3 days per week with manager approval. Maintain regular working hours and availability. Ensure secure internet connection and private workspace. Company equipment must be used for work activities. Attend required in-office meetings and team events as scheduled.",
+      "tags": ["remote-work", "policy", "flexibility"],
+      "author": "HR Department",
+      "last_updated": "2024-01-23",
+      "views": 341
+    },
+    {
+      "id": "iw010",
+      "title": "Expense Reimbursement Process",
+      "category": "HR Policies",
+      "content": "Submit expense reports within 30 days of purchase with itemized receipts. Approved categories include travel, meals with clients, professional development, and office supplies. Expenses over $500 require pre-approval. Reimbursements processed within 2 weeks of submission. Use company credit card when available.",
+      "tags": ["expenses", "finance", "reimbursement"],
+      "author": "Finance Team",
+      "last_updated": "2024-01-15",
+      "views": 276
+    },
+    {
+      "id": "iw011",
+      "title": "Meeting Best Practices",
+      "category": "Engineering Processes",
+      "content": "Every meeting should have a clear agenda distributed 24 hours in advance. Start and end on time. Assign a note-taker and action item owner. Limit attendees to essential participants. Record decisions and next steps. Follow up with meeting notes within 24 hours. Decline meetings without clear objectives.",
+      "tags": ["meetings", "productivity", "culture"],
+      "author": "Operations",
+      "last_updated": "2024-01-24",
+      "views": 187
+    },
+    {
+      "id": "iw012",
+      "title": "Customer Escalation Procedure",
+      "category": "Sales Playbooks",
+      "content": "For customer issues requiring escalation: Document issue details and attempted resolutions, notify account manager immediately, loop in customer success manager, escalate to VP if unresolved within 24 hours. Maintain communication with customer throughout. Conduct resolution review after closure.",
+      "tags": ["customer-success", "escalation", "support"],
+      "author": "Customer Success",
+      "last_updated": "2024-01-25",
+      "views": 209
+    }
+  ]
+}
