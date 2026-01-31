@@ -108,22 +108,27 @@ export default function LoginPage() {
           </form>
 
           <div className="mt-8 pt-6 border-t border-gray-200">
-            <p className="text-sm text-gray-600 mb-3">Test Accounts:</p>
-            <div className="space-y-2 text-xs">
-              <div className="bg-gray-50 p-3 rounded">
-                <strong className="text-gray-700">Support Agent:</strong>
-                <div className="mt-1 text-gray-600">
-                  Email: agent@kbpoc.com
-                  <br />
-                  Password: password123
+            <div className="text-center mb-4">
+              <p className="text-lg font-semibold text-gray-700">Demo Access</p>
+              <p className="text-sm text-gray-500">Try both user roles to see the full system</p>
+            </div>
+            
+            <div className="space-y-3">
+              <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                <p className="font-semibold text-blue-900 mb-2">Support Agent View</p>
+                <div className="text-sm text-blue-800 space-y-1">
+                  <p>Email: <span className="font-mono">agent@kbpoc.com</span></p>
+                  <p>Password: <span className="font-mono">password123</span></p>
+                  <p className="text-xs text-blue-600 mt-2">✓ Customer-facing search capabilities</p>
                 </div>
               </div>
-              <div className="bg-gray-50 p-3 rounded">
-                <strong className="text-gray-700">Admin:</strong>
-                <div className="mt-1 text-gray-600">
-                  Email: admin@kbpoc.com
-                  <br />
-                  Password: password123
+              
+              <div className="bg-purple-50 p-4 rounded-lg border border-purple-200">
+                <p className="font-semibold text-purple-900 mb-2">Administrator View</p>
+                <div className="text-sm text-purple-800 space-y-1">
+                  <p>Email: <span className="font-mono">admin@kbpoc.com</span></p>
+                  <p>Password: <span className="font-mono">password123</span></p>
+                  <p className="text-xs text-purple-600 mt-2">✓ Knowledge base configuration & analytics</p>
                 </div>
               </div>
             </div>
