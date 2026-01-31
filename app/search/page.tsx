@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 export default function SearchPage() {
   const [query, setQuery] = useState("");
@@ -8,14 +8,14 @@ export default function SearchPage() {
   const [loading, setLoading] = useState(false);
   const [selectedArticle, setSelectedArticle] = useState<any>(null);
 
-const [user, setUser] = useState<any>(null);
+  const [user, setUser] = useState<any>(null);
 
-useEffect(() => {
-  const userStr = localStorage.getItem('user');
-  if (userStr) {
-    setUser(JSON.parse(userStr));
-  }
-}, []);
+  useEffect(() => {
+    const userStr = localStorage.getItem("user");
+    if (userStr) {
+      setUser(JSON.parse(userStr));
+    }
+  }, []);
   const handleSearch = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!query.trim()) return;
@@ -48,9 +48,18 @@ useEffect(() => {
               Knowledge Base POC
             </h1>
             <div className="flex items-center space-x-4">
-             <span className="text-sm text-gray-600">
-  {user?.name || 'User'} ({user?.role === 'admin' ? 'Admin' : 'Support Agent'})
-</span>
+              <span className="text-sm text-gray-600">
+                {user?.name || "User"} (
+                {user?.role === "admin" ? "Admin" : "Support Agent"})
+              </span>
+              {user?.role === "admin" && (
+                <a
+                  href="/admin"
+                  className="text-sm text-blue-600 hover:text-blue-700"
+                >
+                  Admin Panel
+                </a>
+              )}
               <button
                 onClick={() => {
                   localStorage.clear();
