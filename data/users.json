@@ -3,7 +3,7 @@
     {
       "id": "user001",
       "email": "agent@kbpoc.com",
-      "password": "$2a$10$rKzW8qKz.9qHvN7kZE5qUe7LxKfF0P4g0V3mZhN8qYzW8qKz.9qHv",
+      "password": "$2a$10$N9qo8uLOickgx2ZMRZoMye.IjzKdKQvGwCBJGBYQbLJh3lh3FzWby",
       "name": "Sarah Agent",
       "role": "support_agent",
       "created_at": "2024-01-10",
@@ -12,7 +12,7 @@
     {
       "id": "user002",
       "email": "admin@kbpoc.com",
-      "password": "$2a$10$rKzW8qKz.9qHvN7kZE5qUe7LxKfF0P4g0V3mZhN8qYzW8qKz.9qHv",
+      "password": "$2a$10$N9qo8uLOickgx2ZMRZoMye.IjzKdKQvGwCBJGBYQbLJh3lh3FzWby",
       "name": "Alex Admin",
       "role": "admin",
       "created_at": "2024-01-10",
