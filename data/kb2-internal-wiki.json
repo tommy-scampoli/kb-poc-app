@@ -1,127 +1,157 @@
 {
-  "kb_name": "Internal Wiki",
+  "kb_name": "PUD Policies & Technical Procedures",
   "kb_id": "kb2",
-  "description": "Company policies, procedures, and internal resources",
+  "description": "Safety protocols, outage procedures, equipment guidelines, and technical requirements",
   "articles": [
     {
-      "id": "iw001",
-      "title": "Employee Onboarding Checklist",
-      "category": "HR Policies",
-      "content": "New employees should complete the following steps within their first week: Sign employment contract and tax forms, attend orientation session, set up company email and accounts, meet with direct manager for role expectations, complete security training, and receive access badges. HR will coordinate these activities.",
-      "tags": ["onboarding", "hr", "new-employees"],
-      "author": "HR Department",
-      "last_updated": "2024-01-16",
-      "views": 312
-    },
-    {
-      "id": "iw002",
-      "title": "Time Off Request Process",
-      "category": "HR Policies",
-      "content": "Submit time off requests at least two weeks in advance through the HR portal. Requests require manager approval. Ensure adequate coverage is arranged before submitting. Unused vacation days roll over up to 5 days annually. Sick leave should be reported as soon as possible to your supervisor.",
-      "tags": ["pto", "vacation", "hr-policy"],
-      "author": "HR Department",
-      "last_updated": "2024-01-14",
-      "views": 289
-    },
-    {
-      "id": "iw003",
-      "title": "Code Review Guidelines",
-      "category": "Engineering Processes",
-      "content": "All code changes require peer review before merging. Reviewers should check for code quality, security vulnerabilities, test coverage, and adherence to style guides. Provide constructive feedback and approve only when all concerns are addressed. Average review turnaround should be within 24 hours.",
-      "tags": ["engineering", "code-review", "development"],
-      "author": "Engineering Lead",
-      "last_updated": "2024-01-20",
-      "views": 267
-    },
-    {
-      "id": "iw004",
-      "title": "Incident Response Protocol",
-      "category": "Engineering Processes",
-      "content": "When a production incident occurs: Create incident channel in Slack, assign incident commander, notify stakeholders, begin investigation and mitigation, document timeline and actions taken, conduct post-mortem within 48 hours. Severity levels determine escalation procedures.",
-      "tags": ["incident", "emergency", "operations"],
-      "author": "DevOps Team",
-      "last_updated": "2024-01-22",
-      "views": 198
-    },
-    {
-      "id": "iw005",
-      "title": "Sales Discovery Call Framework",
-      "category": "Sales Playbooks",
-      "content": "Effective discovery calls follow the BANT framework: Budget, Authority, Need, Timeline. Start with rapport building, understand current challenges, identify pain points, qualify budget and decision-making process, and establish next steps. Document all findings in CRM immediately after the call.",
-      "tags": ["sales", "discovery", "process"],
-      "author": "Sales Manager",
-      "last_updated": "2024-01-18",
-      "views": 234
-    },
-    {
-      "id": "iw006",
-      "title": "Customer Objection Handling",
-      "category": "Sales Playbooks",
-      "content": "Common objections and responses: Price concerns - emphasize ROI and total cost of ownership. Feature gaps - highlight roadmap and customization options. Competitor comparisons - focus on unique differentiators. Implementation time - showcase case studies with similar timelines. Always validate concerns before addressing.",
-      "tags": ["sales", "objections", "tactics"],
-      "author": "Sales Enablement",
-      "last_updated": "2024-01-21",
-      "views": 256
-    },
-    {
-      "id": "iw007",
-      "title": "Data Classification Guidelines",
-      "category": "Security Guidelines",
-      "content": "Company data is classified into three levels: Public (no restrictions), Internal (employees only), Confidential (need-to-know basis). All confidential data must be encrypted. Customer data requires special handling per privacy policies. Label documents appropriately and follow storage guidelines for each classification level.",
-      "tags": ["security", "data", "compliance"],
-      "author": "Security Team",
-      "last_updated": "2024-01-19",
-      "views": 221
-    },
-    {
-      "id": "iw008",
-      "title": "Password and Authentication Policy",
-      "category": "Security Guidelines",
-      "content": "Passwords must be at least 12 characters with mixed case, numbers, and symbols. Enable two-factor authentication on all company accounts. Never share passwords or store them in plain text. Change passwords every 90 days. Use company-approved password manager for secure storage.",
-      "tags": ["security", "authentication", "policy"],
-      "author": "IT Security",
-      "last_updated": "2024-01-17",
-      "views": 298
-    },
-    {
-      "id": "iw009",
-      "title": "Remote Work Policy",
-      "category": "HR Policies",
-      "content": "Employees may work remotely up to 3 days per week with manager approval. Maintain regular working hours and availability. Ensure secure internet connection and private workspace. Company equipment must be used for work activities. Attend required in-office meetings and team events as scheduled.",
-      "tags": ["remote-work", "policy", "flexibility"],
-      "author": "HR Department",
-      "last_updated": "2024-01-23",
-      "views": 341
-    },
-    {
-      "id": "iw010",
-      "title": "Expense Reimbursement Process",
-      "category": "HR Policies",
-      "content": "Submit expense reports within 30 days of purchase with itemized receipts. Approved categories include travel, meals with clients, professional development, and office supplies. Expenses over $500 require pre-approval. Reimbursements processed within 2 weeks of submission. Use company credit card when available.",
-      "tags": ["expenses", "finance", "reimbursement"],
-      "author": "Finance Team",
-      "last_updated": "2024-01-15",
-      "views": 276
-    },
-    {
-      "id": "iw011",
-      "title": "Meeting Best Practices",
-      "category": "Engineering Processes",
-      "content": "Every meeting should have a clear agenda distributed 24 hours in advance. Start and end on time. Assign a note-taker and action item owner. Limit attendees to essential participants. Record decisions and next steps. Follow up with meeting notes within 24 hours. Decline meetings without clear objectives.",
-      "tags": ["meetings", "productivity", "culture"],
+      "id": "tech001",
+      "title": "How to Report a Power Outage",
+      "category": "Outages & Safety",
+      "content": "To report a power outage, contact the PUD immediately at (360) 452-9771 or toll-free at (800) 542-7859. You can also report outages through the SmartHub mobile app or website. Check the online Outage Map at smarthub.clallampud.net/maps/OutageWebMap to see current outages in your area. Advanced meters automatically report outages even when you're away from home, helping the PUD respond faster to restore power.",
+      "tags": ["outage", "emergency", "reporting", "contact"],
       "author": "Operations",
-      "last_updated": "2024-01-24",
-      "views": 187
+      "last_updated": "2026-01-30",
+      "views": 0
     },
     {
-      "id": "iw012",
-      "title": "Customer Escalation Procedure",
-      "category": "Sales Playbooks",
-      "content": "For customer issues requiring escalation: Document issue details and attempted resolutions, notify account manager immediately, loop in customer success manager, escalate to VP if unresolved within 24 hours. Maintain communication with customer throughout. Conduct resolution review after closure.",
-      "tags": ["customer-success", "escalation", "support"],
-      "author": "Customer Success",
-      "last_updated": "2024-01-25",
-      "views": 209
+      "id": "tech002",
+      "title": "Transformer Clearance and Landscaping Guidelines",
+      "category": "Equipment Safety",
+      "content": "When landscaping near PUD equipment: Do not fence, landscape, or build structures within 10 feet of the front and 3 feet from sides and back of transformers or other PUD equipment. Obstructing airflow can damage equipment and cause delays in service restoration. Never paint PUD equipment. The PUD will remove obstructions that impede work access. If unsure about your landscaping plans, call (360) 452-9771 or toll-free (800) 542-7859 before starting work.",
+      "tags": ["transformer", "safety", "landscaping", "clearance", "equipment"],
+      "author": "Operations",
+      "last_updated": "2026-01-30",
+      "views": 0
+    },
+    {
+      "id": "tech003",
+      "title": "Meter Space and Access Requirements",
+      "category": "Equipment Safety",
+      "content": "Proper meter access requires: Clear space in front of meter equipment at least 36 inches deep, as wide as the equipment (minimum 36 inches), and at least 6 feet 6 inches high. Pathways must be minimum 2 feet wide. If walkway crosses a ditch wider than 6 feet, a structurally sound handrail is required. Meters must be readily removable (not plastered or built-in) and not recessed behind exterior walls. Meters in alleys or driveways must be flush mounted and protected from vehicular traffic. Customers are responsible for costs of repairs or replacement due to neglect, carelessness, or misuse.",
+      "tags": ["meter", "access", "requirements", "clearance", "safety"],
+      "author": "Operations",
+      "last_updated": "2026-01-30",
+      "views": 0
+    },
+    {
+      "id": "tech004",
+      "title": "Low Water Pressure Troubleshooting",
+      "category": "Water Service",
+      "content": "If water pressure seems lower than normal: Turn on faucets one at a time throughout the house and outside to determine if pressure is low everywhere or in specific areas. If low in some areas only, remove and clean faucet screens and check for partially closed shut-off valves. If no improvement, a plumber may need to remove restrictions within your home's plumbing. If pressure is low throughout the house, please call the PUD at (360) 452-9771 for assistance.",
+      "tags": ["water", "pressure", "troubleshooting", "plumbing"],
+      "author": "Water Operations",
+      "last_updated": "2026-01-30",
+      "views": 0
+    },
+    {
+      "id": "tech005",
+      "title": "Advanced Meter Benefits and Features",
+      "category": "Advanced Metering",
+      "content": "Advanced meters provide numerous benefits: Enhanced customer privacy with reduced need for property access. Consistent billing cycles with no estimates. More accurate bills than older electromechanical meters. Faster service connection and disconnection. Enhanced employee safety. Energy theft protection. Automatic outage detection and reporting even when you're away from home. Improved power quality investigations with remote diagnostics. Faster outage restoration. Reduced carbon footprint by eliminating many field trips. Over 119 million advanced meters (72% of US customers) have been installed nationwide as of 2022.",
+      "tags": ["advanced-meter", "smart-meter", "technology", "benefits"],
+      "author": "Metering Department",
+      "last_updated": "2026-01-30",
+      "views": 0
+    },
+    {
+      "id": "tech006",
+      "title": "Advanced Meter Opt-Out Program",
+      "category": "Advanced Metering",
+      "content": "Customers may opt out of advanced meters and receive a digital meter without remote-read capability. The opt-out program includes a monthly fee to cover additional costs for manual meter reading. The PUD will read the meter every other month, estimating between reads. Opt-out is not available for: customers on Net Metering or Pre-Pay programs, those with tampered meters, poly-phase or demand meter service, locations with continuous service programs for landlords, customers who violate facility access policy, or after any field trip for non-payment disconnection. Submit a Remote-Read or Advanced Meter Opt-Out Form to enroll.",
+      "tags": ["advanced-meter", "opt-out", "digital-meter", "policy"],
+      "author": "Metering Department",
+      "last_updated": "2026-01-30",
+      "views": 0
+    },
+    {
+      "id": "tech007",
+      "title": "Advanced Meter Safety and Radio Frequency",
+      "category": "Advanced Metering",
+      "content": "Advanced meters operate at 900 MHz Radio Frequency in the unlicensed UHF band with maximum transmission of 0.5 watts. Total transmission time averages only 12 minutes per year. Standing in front of an advanced meter for an entire year equals the RF exposure of a short phone call or streaming a short video. Both RF and power line carrier meters are UL-certified. The meters only transmit: total power consumed, instantaneous voltage, device numeric identification, and disconnect position (on/off). No personal usage data or private information is transmitted.",
+      "tags": ["advanced-meter", "safety", "radio-frequency", "rf", "privacy"],
+      "author": "Metering Department",
+      "last_updated": "2026-01-30",
+      "views": 0
+    },
+    {
+      "id": "tech008",
+      "title": "SmartHub Account Portal Features",
+      "category": "Customer Tools",
+      "content": "SmartHub is the PUD's customer portal available on the website and as a mobile app. Features include: Track your energy usage in real-time. Report power outages. Pay your bill online. Set up autopay or payment reminders. View billing history. Manage your account preferences. Access usage data for SmartPay prepay accounts with daily balance alerts. SmartHub provides greater control over your account and helps you monitor and manage your energy consumption.",
+      "tags": ["smarthub", "portal", "mobile-app", "account-management", "online"],
+      "author": "Customer Service",
+      "last_updated": "2026-01-30",
+      "views": 0
+    },
+    {
+      "id": "tech009",
+      "title": "SmartPay Prepay Account Program",
+      "category": "Payment Options",
+      "content": "SmartPay is a prepay electric account where you pay for electricity before using it. Benefits include: No due dates or monthly billing statements. Pay what you can when you can. Receive alerts when balance is low. Track daily usage through SmartHub mobile app. No deposits required. Avoid late fees and disconnection notices. Great option for budget-conscious customers who want to manage energy costs in real-time. Ideal for customers having difficulty with traditional billing cycles.",
+      "tags": ["smartpay", "prepay", "payment", "budget", "no-deposit"],
+      "author": "Customer Service",
+      "last_updated": "2026-01-30",
+      "views": 0
+    },
+    {
+      "id": "tech010",
+      "title": "Planned Outage Notifications",
+      "category": "Outages & Safety",
+      "content": "The PUD schedules planned outages for necessary maintenance, upgrades, and system improvements. Customers affected by planned outages receive advance notification when possible. Check the PUD website calendar for upcoming planned outages in your area. Planned outages are typically scheduled during daytime hours and off-peak seasons when possible to minimize inconvenience. The PUD works to complete planned maintenance efficiently to restore power as quickly as possible.",
+      "tags": ["outage", "planned-outage", "maintenance", "notification"],
+      "author": "Operations",
+      "last_updated": "2026-01-30",
+      "views": 0
+    },
+    {
+      "id": "tech011",
+      "title": "Emergency Contact Numbers and Office Hours",
+      "category": "Contact Information",
+      "content": "PUD Contact Information - Main Office (Sequim): (360) 452-9771. Toll-Free: (800) 542-7859. Forks Office: (360) 374-6201. Clallam Bay/Sekiu Office: (360) 963-2223. Pay by Phone: (855) 943-3644. Office Hours: Monday through Thursday, 7am to 5pm (Main and Forks offices). Clallam Bay/Sekiu office open Wednesdays 8am to 4pm. For after-hours emergencies including power outages, call the main number. Customer Service Email: CustomerServiceInquiry@clallampud.net",
+      "tags": ["contact", "phone", "office-hours", "emergency", "locations"],
+      "author": "Customer Service",
+      "last_updated": "2026-01-30",
+      "views": 0
+    },
+    {
+      "id": "tech012",
+      "title": "PUD Service Territory and Coverage Area",
+      "category": "Service Information",
+      "content": "Clallam County PUD serves electric, water, wastewater, and broadband services throughout Clallam County, Washington. Main service areas include Sequim, Port Angeles, Forks, and Clallam Bay/Sekiu regions. The PUD operates as a public utility district, meaning it is owned by the customers it serves and governed by elected commissioners. Service territory boundaries can be verified by contacting the PUD or checking the service availability map on the website.",
+      "tags": ["territory", "coverage", "service-area", "public-utility"],
+      "author": "Administration",
+      "last_updated": "2026-01-30",
+      "views": 0
+    },
+    {
+      "id": "tech013",
+      "title": "High Electric Bill Troubleshooting",
+      "category": "Energy Management",
+      "content": "If your electric bill seems unusually high, consider these factors: Winter heating costs increase as outside temperatures drop. Home insulation values, heating system efficiency, air infiltration, and home size all affect energy use. Check for: malfunctioning thermostat, space heaters running continuously, water heater issues, or phantom loads from electronics. The PUD offers free energy audits to help identify efficiency improvements. Review your usage history in SmartHub to compare with previous months. Contact the PUD if you believe there's a metering error.",
+      "tags": ["high-bill", "energy-usage", "troubleshooting", "efficiency"],
+      "author": "Energy Services",
+      "last_updated": "2026-01-30",
+      "views": 0
+    },
+    {
+      "id": "tech014",
+      "title": "Energy Efficiency Rebates and Programs",
+      "category": "Energy Management",
+      "content": "The PUD offers rebates and incentives for energy-efficient upgrades including: Heat pump installations, weatherization improvements, energy-efficient appliances, LED lighting upgrades, and insulation improvements. These programs help reduce energy consumption, lower utility bills, and benefit the environment. Eligibility requirements and rebate amounts vary by program. Low-income customers may qualify for additional assistance. Contact the PUD for current program details, application forms, and to schedule an energy audit to identify improvement opportunities.",
+      "tags": ["rebates", "incentives", "efficiency", "energy-savings", "upgrades"],
+      "author": "Energy Services",
+      "last_updated": "2026-01-30",
+      "views": 0
+    },
+    {
+      "id": "tech015",
+      "title": "Downed Power Line Safety Protocol",
+      "category": "Outages & Safety",
+      "content": "If you encounter a downed power line: STAY AWAY - assume all downed lines are energized and dangerous. Keep at least 35 feet away from downed lines. Never touch anything or anyone in contact with a downed line. Do not attempt to move downed lines or debris near them. Call 911 immediately and report the location. Then call the PUD at (360) 452-9771 or (800) 542-7859. Keep others away from the area until help arrives. If a power line falls on your vehicle, stay inside unless there is fire - if you must exit, jump clear without touching the vehicle and ground simultaneously.",
+      "tags": ["safety", "emergency", "downed-line", "electrical-hazard", "protocol"],
+      "author": "Safety Department",
+      "last_updated": "2026-01-30",
+      "views": 0
     }
   ]
 }
